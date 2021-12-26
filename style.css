@@ -52,7 +52,6 @@ main img{
   width: 5vh;
   height: 5vh;
   align-items: center;
-  /* background-color: blue; */
 }
 
 .logo, .description{
@@ -60,11 +59,12 @@ main img{
   height: 100%;
 }
 
-.logo:hover{
+
+.link:hover > .logo{
   display: none;
 }
 
-.logo:hover + .description{
+.link:hover > .description{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,3 +82,11 @@ main img{
 .github{
   fill: black;
 }
+
+/* Safari Desktop :hover flicker fix */
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0)  {
+    body {
+        color: #90f;
+    }
+} */
