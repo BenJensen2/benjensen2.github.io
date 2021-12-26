@@ -59,7 +59,6 @@ main img{
   height: 100%;
 }
 
-
 .link:hover > .logo{
   display: none;
 }
@@ -82,11 +81,3 @@ main img{
 .github{
   fill: black;
 }
-
-/* Safari Desktop :hover flicker fix */
-
-/* @media screen and (-webkit-min-device-pixel-ratio:0)  {
-    body {
-        color: #90f;
-    }
-} */
