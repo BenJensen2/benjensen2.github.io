@@ -9,26 +9,28 @@ body{
 }
 
 main{
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   height: 100%;
   width: 100%;
 }
 
 main img{
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   width: 100vw;
   height: 100vh;
 }
 
 .center{
   display: inline-block;
+  width: 100vw;
+  padding-top: 30vh;
   margin: auto;
+  margin-bottom: 10vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: rgb(163 88 117);
-  z-index: 1;
 }
 
 .center h1{
@@ -39,6 +41,8 @@ main img{
   font-size: 4vh;
   margin: 3vh 0px 4vh 0px;
 }
+
+/* Links and Logos */
 
 .links{
   display: flex;
@@ -80,4 +84,12 @@ main img{
 
 .github{
   fill: black;
+}
+
+
+/* Projects */
+.projects{
+  height: 500px;
+  width: 100vw;
+  /* background-color: aqua; */
 }
